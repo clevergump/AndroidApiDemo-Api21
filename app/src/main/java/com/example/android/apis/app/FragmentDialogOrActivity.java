@@ -64,7 +64,7 @@ public class FragmentDialogOrActivity extends Activity {
 
 
 
-    public static class MyDialogFragment extends DialogFragment {
+  public static class MyDialogFragment extends DialogFragment {
         static MyDialogFragment newInstance() {
             return new MyDialogFragment();
         }
@@ -72,6 +72,7 @@ public class FragmentDialogOrActivity extends Activity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
+//            setShowsDialog(false);
             View v = inflater.inflate(R.layout.hello_world, container, false);
             View tv = v.findViewById(R.id.text);
             ((TextView)tv).setText("This is an instance of MyDialogFragment");
