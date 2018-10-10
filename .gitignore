@@ -1,6 +1,25 @@
 .gradle
 build/
 
+*.iml
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.idea
+/.gradle
+/README.md
+/app/build
+/app/app.iml
+/test
+*~
+/?
+/gradle
+/gradlew*
+
+
+
 # Ignore Gradle GUI config
 gradle-app.setting
 
